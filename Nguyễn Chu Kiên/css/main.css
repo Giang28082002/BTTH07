@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+}
+.container {
+  width: 30rem;
+  margin: 10rem;
+  border: 0.2px solid;
+}
+.heading {
+  text-align: center;
+}
+.form-group {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+}
+input {
+  height: 1.5rem;
+}
+h1 {
+  font-weight: 700;
+  font-size: 2rem;
+}
+label {
+  width: 10rem;
+}
+.form-message {
+  font-size: 1rem;
+}
