@@ -1,1 +1,69 @@
-*{}
+.container{
+    display: grid;
+    justify-content: center;
+}
+form{
+    width: 470px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    box-shadow: 6px 7px 20px 3px black;
+}
+input{
+    width: 100%;
+    height: 100%;
+}
+#country,.checkbox,.input{
+    width: 100px;
+    height: 20px;
+    display: block;
+    padding: 0;
+    margin-left: 5px;
+}
+.checkbox{
+    display: flex;
+    align-items: center;
+    width: 200px;
+}
+.title{
+    width: 100px;
+    text-align: right;
+}
+.row{
+    margin: 5px;
+}
+span{
+    margin: 4px;
+}
+.sex .checkbox input{
+    width: 15px;
+    height: 15px;
+}
+.language input{
+    width: 15px;
+    height: 15px;
+    border: 100% !important;
+}
+.about textarea{
+    width: 330px;
+    height: 200px;
+}
+.about .title{
+    margin-bottom: 190px;
+}
+.name input,.address input,.email input{
+    width: 300px;
+}
+.country #country{
+    width: 200px;
+    font-size: 14px;
+}
+.btnSubmit{
+    text-align: center;
+    margin:30px 0 10px 0;
+}
+.error{
+    margin-left: 30px;
+    color: red;
+    font-size: 13px;
+}
